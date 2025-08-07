@@ -1,8 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import Header from "./components/Header";
+import InvoiceForm from "./components/InvoiceForm";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Header />
+      <InvoiceForm />
+    </>
+  );
 }
 
 export default App;
